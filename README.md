@@ -33,3 +33,14 @@ competitions = [
 - Первый параметр: индекс соревнования
 - Второй параметр: количество лет для парсинга
 - Третий параметр: название соревнования
+
+##  Конфигурация подключения к базе данных
+
+### Файл `config.py`
+
+```python
+host = 'your_host'
+user = 'your_username'
+password = 'your_password'
+db_name = 'your_db_name'
+```
